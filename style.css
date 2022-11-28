@@ -1,0 +1,221 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 80%; 
+   font-family: inter;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    
+}
+.petitLogo img{
+    width: 100px;
+    background-color: black;
+    margin-right: 10px;
+
+
+}
+.petitLogo{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
+nav ul a{
+    text-decoration: none;
+    padding:10px;
+    color: rgb(0, 0, 0);
+    transition: 0.9s;
+} 
+nav ul a:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+}
+  
+.contenaire{
+    display: flex;
+    height: 119.4vh;
+    background-color: black;
+
+}
+.profil img{
+    width:567px ;
+    /* height: 938px; */
+    
+}
+/* .profil{
+    width: 180%;
+    width: 732px;
+    height: 938px;
+    background-image: url("img/WhatsApp\ Image\ 2022-11-21\ à\ 13.28.15.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+.languagePhoto{
+    /* padding-left: 5px; */
+    
+}
+.menu{
+    display: none;
+}
+.languagePhoto img{
+    width: 70px;
+}
+article{
+    width: 548px; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+    color:white
+}
+.grandLogo img{
+    width: 50%;
+   margin: auto;
+   
+}
+.languagePhoto .petitLogoimg5{
+    width: 70px;
+}
+.contact{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.contactc{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px;
+    margin-bottom: 50px;
+    margin-top: 7px;
+
+}
+.lien img{
+    padding: 10px;
+}
+article p{
+    margin: auto;
+    text-align: center;
+}
+article .h22{
+    width: 96%;
+    
+    border-bottom: 1px solid white;
+}
+.work img{
+    
+    width: 100px;
+}
+.workKn,.workForkid,.workScorpion{
+    display: flex;
+}
+.workKn p,.workForkid p,.workScorpion p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.work{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contactLogo img{
+    width: 30px;
+    margin-right: 40px;
+}
+.contactLogo{
+
+    display: flex;
+    margin-top: 30px;
+    /* align-items: center; */
+}
+article h2{
+    text-align: center;
+}
+#git{
+
+    width: 50px;
+}
+@media screen and (max-width: 1024px){
+    body{
+        width: 100%;
+        margin: auto;
+    }
+    nav ul a{
+        color: white;
+       
+    }
+    nav ul{
+        display: block;
+    }
+    nav{
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        padding: 10px;
+        background-color: black;
+    }
+    .profil{
+        display: none;
+    }
+    .contenaire{
+        width: 100%;
+        
+        background-image: url("img/hhh.png") ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: auto;
+       
+
+    }
+    article{
+        background-color: rgba(255, 255, 255, 0.281);
+        width: 90%;
+        margin: auto;
+    }
+        /* nav{
+        display: none; 
+    } */
+    header{
+        background-color: black;
+    }
+    .grandLogo{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    .languagePhoto img{
+        width: 50px;
+    }
+    .menu{
+        background-image: url("img/icon-hamburger.svg");
+        display: flex;
+        margin-right: 7%;
+    }
+    nav ul a:hover{
+       
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: none;
+    }
+    
+    
+}
