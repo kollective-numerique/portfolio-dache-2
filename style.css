@@ -1,0 +1,484 @@
+@font-face {
+    font-family: 'good';
+    font-style:  normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("Inter Web/Inter-Thin.woff2?v=3.19") format("woff2"),
+         url("Inter Web/Inter-Thin.woff?v=3.19") format("woff");
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+.burg{
+    display: none;
+}
+body{
+    width: 85%;
+    margin: auto;
+}
+.contenaire{
+    background-color: rgba(25, 26, 26, 0.178);
+}
+header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: -webkit-sticky; /* Safari */
+    position: -moz-sticky;
+        position: sticky;
+        top: 0;
+}
+#navigation{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+}
+#iconeOpen,#iconeClose{
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+nav{
+    margin-left: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: inter;
+    font-weight: bold;
+    color: white;
+
+}
+#burg{
+    display: none;
+}
+.acceuil{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nom{
+    margin: 30px;
+    margin-left: 70px;
+}
+.nom h1{
+    font-family: inter;
+    font-size: 4em;
+}
+.nom p{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    font-family: good;
+    font-size: 12px;
+}
+.nom a, .cont{
+    font-family: inter;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding:7px ;
+    border: 1px solid lime;
+}
+.cont{
+    margin-right: 20px;
+}
+.profil {
+    height: 500px; 
+}
+.profil img{
+    width: 400px;
+    height: 400px;
+    /* background-image: url("img/dadi.png");
+    background-repeat: no-repeat; */
+    margin-left: 80px;
+    border-radius: 50%;
+    border: 2px solid lime;
+}
+.quiSuisJe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234, 234, 250);
+}
+.quiSuisJe p {
+    text-align: center;
+    width: 50%;
+    padding:10px;
+    font-family: good;
+}
+.quiSuisJe h2{
+    padding:30px;
+
+}
+#navigation h1{
+    color:lime;
+}
+.skillsPicture{
+    background-image: url("img/images\ \(3\).jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+   
+}
+.skills{
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 500px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.skills h2{
+    padding: 20px;
+    font-family: inter;
+}
+.skills p{
+    padding-bottom: 12px;
+    font-family: good;
+}
+.blockSkills{
+    border: 1px solid lime;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.blockSkills .p{
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 10px;
+}
+.blockSkills .p p{
+    padding: 5px;
+    background-color: rgba(0, 255, 0, 0.719);
+    border-radius: 10px;
+    width: 50%;
+    font-size: 8px;
+    font-family: inter;
+}
+#css{
+    width: 20%;
+
+}
+#js{
+    width: 12%;
+
+}
+#del{
+    width: 60%;
+
+}
+#rx{
+    width: 20%;
+
+}
+#auto{
+    width: 15%;
+}
+.portfolio{
+    color:white;
+    background-color: rgb(16, 51, 51);
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.portfolio h2{
+    margin: 20px;
+}
+.portfolio p{
+    font-family: good;
+}
+.portfolio a{
+    text-decoration: none;
+    padding: 7px;
+    font-family: inter;
+    font-weight: bold;
+    color: white;
+}
+.zonePortfolio1,.zonePortfolio2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 20px;
+    
+}
+article img{
+    width: 250px;
+    border-radius: 20px;
+    margin: 15px;
+    transition: 0.5s;
+}
+article img:hover{
+    filter: grayscale(100%);
+}
+article p{
+    width: 250px;
+
+}
+.contact{
+    color:white;
+    background-color: rgb(16, 51, 51);
+    height: 500px;
+    font-family: inter;
+}
+.contact h1{
+    font-size: 4em;
+    padding: 20px;
+}
+.blockContact{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.meTrouver ul, .mappeler ul {
+    padding-left: 40px;
+
+}
+#emails{
+    margin: 20px;
+    margin-left: 70px;
+}
+#ss{
+    width:35px;
+}
+.iconMeConnaitre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iconMeConnaitre a{
+    padding: 10px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lime;
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+}
+.clients{
+    position: relative;
+    bottom: 200px;
+}
+
+#message{
+    display: block;
+    width: 100%;
+}
+
+.insertForm{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+input{
+    width: 45%;
+    /* margin:10px; */
+    padding: 10px;
+    background-color: rgba(202, 202, 202, 0.226);
+    border-color: lime;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 0;
+    background-color: limegreen;
+    color:white;
+}
+footer{
+    
+}
+#copy{
+    text-align: center;
+}
+.idco{
+    display: flex;
+}
+/* Partie mobile */
+@media screen and (max-width: 1024px){
+    body{
+        width: 100%;
+    }
+    #navigation{
+        padding-left: 20px;
+    }
+    #navigation h1{
+        font-size: larger;
+    
+    }
+    nav{
+        display: none;
+    }
+    #burg{
+        background-color: rgba(255, 255, 255, 0.315);
+        transition: 0.6s;
+
+    }
+
+    #burg ul{
+        list-style-type: none;
+    }
+    #burg  ul a{
+        text-decoration: none;
+        
+        font-family: inter;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+    }
+    #burg ul a li{
+        padding: 8px;
+        padding-left: 20px;
+
+
+    }
+    #burg ul a:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.315);
+
+    }
+    header{
+        position: -webkit-sticky; /* Safari */
+        position: -moz-sticky;
+            position: sticky;
+            top: 0;
+    }
+    #iconeOpen{
+        display: block;
+    }
+    .cont{
+        margin-right: 60px;
+        padding: 4px;
+    }
+    #acceuil{
+        /* position: relative;
+       
+        right: 80px;
+        top: 60px;
+         */
+        
+         height: 200px;
+    }
+    #acceuil img{
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+    .zonePortfolio1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .zonePortfolio2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #noms{
+        font-size: 2em;
+    }
+    .nom{
+        padding: 0;
+        margin: 0;
+
+    }
+    .acceuil{
+        /* height: 200px; */
+        display: flex;
+        flex-direction: row;
+        align-items: none;
+    }
+    .quiSuisJe p{
+        width: 95%;
+    }
+    .blockSkills{
+        width: 90%;
+        height: 50%;
+       
+    }
+    .p p{
+    font-size: 5px;
+
+    }
+    .portfolio a{
+        text-decoration: none;
+        padding: 3px;
+        font-family: inter;
+        font-weight: bold;
+        color: white;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items : center;
+    }
+    article p{
+        width: 100%;
+    }
+    .blockContact h3{
+        font-size:15px;
+    }
+    .blockContact li{
+        font-size: 10px;
+    }
+    .contact h1{
+        font-size: 30px;
+
+    }
+    .blockContact{
+        display: flex;
+        flex-direction: column;
+    }
+    .meTrouver ul, .mappeler ul {
+        padding-left: 20px;
+    
+    }
+    .insertForm{
+        display: flex;
+        flex-direction: column;
+    }
+    .clients input{
+        width: auto;
+        height: 10px;
+        margin: 5px;
+
+    }
+    .clients,.formulaire{
+        padding: 0%;
+    }
+    input[type="submit"]{
+        height: 20px;
+    }
+    
+}
